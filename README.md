@@ -23,6 +23,7 @@ This report analyzes school performance within a district, focusing on various s
    - Performance categorized by school type.
 
 ## Key Data
+![Analysis Image](https://github.com/thecolombian/pandas-challenge/blob/main/IMAGES/2024-06-21_15-25-08.png)
 
 ## Conclusions and Comparisons
 
@@ -53,36 +54,21 @@ The PyCitySchools analysis provides valuable insights into how different types o
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-PyCitySchools Analysis
-
-Overview
+**Overview**
 
 This script analyzes school and student data to generate various summary metrics and insights about school performance within a district. It uses Python and pandas for data processing and analysis.
 
-Files
+**Files**
 Resources/schools_complete.csv: Contains data on various schools within the district.
 Resources/students_complete.csv: Contains data on students, including their math and reading scores.
 
-Steps Performed
+**Steps Performed**
 Data Loading:
 
 Load school and student data from CSV files into pandas DataFrames.
 Merge these DataFrames into a single dataset for comprehensive analysis.
 
-District-Level Metrics:
+**District-Level Metrics:**
 
 Calculate the total number of unique schools.
 Calculate the total number of students.
@@ -98,6 +84,6 @@ Data Grouping and Visualization:
 Categorize and summarize school performance based on spending per student, school size, and school type.
 Display results in well-structured DataFrames for easy interpretation and visualization.
 
-Usage
+**Usage******
 To run the analysis, execute the script in a Jupyter Notebook environment. Ensure that the required CSV files are available in the specified paths. The script will generate various summary tables and metrics that can be used to assess school performance across different dimensions.
 
